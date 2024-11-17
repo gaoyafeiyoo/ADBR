@@ -111,7 +111,7 @@ def get_defense_arguments():
     parser.add_argument('--dataset', type=str, default='gtsrb', choices=['cifar10', 'gtsrb'])
     parser.add_argument('--attack', type=str, default='patch', choices=['patch', 'wanet', 'blended', 'sig','bpp'])
     parser.add_argument('--target', type=int, default=0)
-    parser.add_argument('--model', type=str, default='resnet18', choices=['resnet18','preact_resnet'])#patch blended and sig=resnet18 others=preact_resnet
+    parser.add_argument('--model', type=str, default='resnet18', choices=['resnet18','preact_resnet'])
     parser.add_argument('--portion', type=float, default=0.1)
     parser.add_argument('--data', type=str, default='./cache/data')
     parser.add_argument('--output_dir', type=str, default='./cache/weights/')
@@ -132,7 +132,7 @@ def get_defense_arguments():
     parser.add_argument('--latent_dim', type=int, default=100, help='dimensionality of the latent space')
     parser.add_argument('--lr_G', type=float, default=1e-3, help='Generator learning rate')
     parser.add_argument('--lr_S', type=float, default=3e-3, help='Student learning rate')
-    parser.add_argument('--lamda', type=int, default=0.005)
+    parser.add_argument('--lamda', type=int, default=0.01)
     parser.add_argument('--alpha', type=int, default=0.02)
 
     # for blended 
