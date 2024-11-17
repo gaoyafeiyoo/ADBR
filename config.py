@@ -54,7 +54,7 @@ def get_train_arguments():
 #     parser.add_argument('--dataset', type=str, default='cifar10', choices=['cifar10', 'gtsrb'])
 #     parser.add_argument('--attack', type=str, default='patch', choices=['patch', 'wanet', 'blended', 'sig','bpp'])
 #     parser.add_argument('--target', type=int, default=0)
-#     parser.add_argument('--model', type=str, default='resnet18', choices=['resnet18','preact_resnet'])#patch blended and sig=resnet18 others=preact_resnet
+#     parser.add_argument('--model', type=str, default='resnet18', choices=['resnet18','preact_resnet'])
 #     parser.add_argument('--portion', type=float, default=0.1)
 #     parser.add_argument('--data', type=str, default='./cache/data')
 #     parser.add_argument('--output_dir', type=str, default='./cache/weights/')
