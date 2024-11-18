@@ -126,7 +126,7 @@ def get_defense_arguments():
     parser.add_argument('--method', type=str, default='')
 
     parser.add_argument('--shuffle_layers', type=int, default=2)#sig=4 others=2
-    parser.add_argument('--tea_shuffle_layers', type=int, default=3)#all=3
+    parser.add_argument('--tea_shuffle_layers', type=int, default=3)
     parser.add_argument('--n_shuf_ens', type=int, default=3)
     parser.add_argument('--batch_size', type=int, default=128, help='size of the batches')
     parser.add_argument('--latent_dim', type=int, default=100, help='dimensionality of the latent space')
