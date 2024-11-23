@@ -69,7 +69,7 @@ def get_train_arguments():
 #     parser.add_argument('--method', type=str, default='')
 
 #     #patch=2 blended=2 sig=2 bpp=3 wanet=2
-#     parser.add_argument('--shuffle_layers', type=int, default=4)
+#     parser.add_argument('--shuffle_layers', type=int, default=2)
 #     #patch=4 blended=3 sig=4 bpp=3 wanet=4
 #     parser.add_argument('--tea_shuffle_layers', type=int, default=4)
 #     parser.add_argument('--n_shuf_ens', type=int, default=3)
