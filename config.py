@@ -68,9 +68,9 @@ def get_train_arguments():
 #     parser.add_argument("--lr_schedule", nargs="+", default=[200], type=int)
 #     parser.add_argument('--method', type=str, default='')
 
-#     #patch=4 blended=2 sig=2 bpp=3 wanet=4
+#     #patch=2 blended=2 sig=2 bpp=3 wanet=2
 #     parser.add_argument('--shuffle_layers', type=int, default=4)
-#     #patch=4 blended=4 sig=3 bpp=3 wanet=4
+#     #patch=4 blended=3 sig=4 bpp=3 wanet=4
 #     parser.add_argument('--tea_shuffle_layers', type=int, default=4)
 #     parser.add_argument('--n_shuf_ens', type=int, default=3)
 #     parser.add_argument('--batch_size', type=int, default=128, help='size of the batches')
